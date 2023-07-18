@@ -1,0 +1,225 @@
+.contanier{
+  width: 30rem;
+  background-color:white;
+  margin: auto;
+  margin-top: 2rem;
+  border: 1px solid rgba(128, 128, 128, 0.279);
+ 
+  
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: rgba(230, 230, 230, 0.157);
+  font-weight: 700;
+  color: rgba(60, 57, 57, 0.725);
+
+
+  
+
+}
+.search{
+  width: 21.5rem;
+  font-size: large;
+
+}
+.list{
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-left: -2rem;
+ 
+
+}
+.listItem{
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: rgb(41, 56, 69);
+  font-weight: 300;
+}
+.listItem img{
+  height: 50px;
+  width: 50px;
+  border-radius: 5rem;
+  background-color: rgba(128, 128, 128, 0.783);
+  margin-left: -5 rem;
+
+
+
+}
+
+.search-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.search-box input{
+  border-radius: 2rem;
+  padding: .5rem;
+  text-decoration: none;
+  border: 1px solid grey;
+
+}
+.card{
+  display: flex;
+  margin: 0.5rem 3rem;
+
+  
+}
+.card p {
+  margin-left: 1rem;
+  color: grey;
+
+}
+.details {
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.details h3, p{
+  margin: 0;
+
+  
+}
+h3{
+  color: rgba(0, 0, 0, 0.806);
+   
+}
+
+.icon button{
+
+  margin: 1px;
+  
+}
+
+
+
+.del-container{
+ 
+  background-color: red;
+  /* border-radius: 2rem; */
+  padding: 0;
+  width: 2rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  /* margin-top: 15rem; */
+ 
+
+}
+.delete{
+/* margin-top:5rem ; */
+color: white; 
+
+}
+.del-span{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+  margin-top: 15rem;
+ 
+}
+
+
+.action-container{
+  background-color: rgb(34, 255, 0);
+  /* border-radius: 2rem; */
+  padding: 0;
+  width: 2rem;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+  /* margin-top: 15rem; */
+
+}
+
+.delete-alert{
+  color: red;
+}
+
+
+.joining{
+  margin-left: 8  rem;
+  
+}
+
+
+
+
+.Add-con button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(16, 67, 67);
+  padding: .5rem;
+  border-radius: .5rem;
+  box-shadow: 5px 4px 4px .5px #888888;
+  cursor: pointer;
+}
+
+.Add-con button:hover{
+  background-color: rgb(22, 36, 36);
+
+}
+
+
+
+.update-con button{
+  color: rgb(255, 255, 255);
+  background-color: rgba(200, 32, 43, 0.746);
+  padding: .5rem;
+  border-radius: .5rem;
+  box-shadow: 5px 4px 4px .5px #888888;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  }
+
+.update-con button:hover{
+ 
+  background-color: rgb(186, 25, 25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print{
+ body {
+    /* margin-left: 2rem; */
+    color: rgba(161, 37, 37, 0.528);
+  }
+
+}
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
